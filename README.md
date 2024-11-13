@@ -44,7 +44,7 @@ Props (propriedades) são parâmetros passados para componentes, permitindo a pa
 <Saudacao nome="Érica" />;
 ```
 
-## 2.4. Estado (State)
+### 2.4. Estado (State)
 O estado permite que os componentes tenham dados que possam ser alterados com o tempo. Usamos o useState para gerenciar o estado em componentes funcionais.
 
 Exemplo de Componente com Estado
@@ -63,7 +63,7 @@ function Contador() {
 }
 ```
 
-## 2.5. Eventos
+### 2.5. Eventos
 React facilita o trabalho com eventos HTML, como onClick, onChange, e onSubmit, que podem ser atribuídos diretamente a elementos.
 
 #### Exemplo de Evento
@@ -77,10 +77,10 @@ React facilita o trabalho com eventos HTML, como onClick, onChange, e onSubmit, 
 }
 ```
 
-# 3. Hooks
+## 3. Hooks
 Hooks são funções que permitem o uso de estado e outros recursos do React em componentes funcionais.
 
-## 3.1. Principais Hooks
+### 3.1. Principais Hooks
 useState: Gerencia o estado local em um componente funcional.
 useEffect: Executa efeitos colaterais, como chamadas de API, após o componente ser renderizado.
 
@@ -107,12 +107,9 @@ function ExemploAPI() {
 }
 ```
 
-# 4. Estrutura Básica de um Projeto React
+## 4. Estrutura Básica de um Projeto React
 
 Ao criar um projeto React com create-react-app, você terá a seguinte estrutura:
-
-## Estrutura de Pastas do Projeto
-
 
 ## Estrutura de Pastas do Projeto
 
@@ -128,14 +125,14 @@ my-app/
 └── package.json        // Dependências e scripts
 ```
 
-# 5. Ciclo de Vida dos Componentes
+## 5. Ciclo de Vida dos Componentes
 Com o uso de hooks, o ciclo de vida de componentes é gerenciado com useEffect:
 
 Montagem: Inicialização do componente.
 Atualização: Quando o estado ou props mudam.
 Desmontagem: Limpeza após o componente ser removido.
 
-# 6. Trabalhando com APIs
+## 6. Trabalhando com APIs
 React facilita a integração com APIs para buscar dados externos. O hook useEffect é geralmente usado para realizar chamadas de API.
 
 #### Exemplo de Chamada de API
